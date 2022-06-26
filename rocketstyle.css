@@ -151,23 +151,27 @@ header {
     position: relative;
 }
 
-.close-modal, 
-.maximize-modal {
+.close-modal {
     color: #000;   
     position: absolute;
     top: 8px;
     right: 8px;
+    cursor: pointer;
 }
 
 .maximize-modal {
+    color: #000;
+    position: absolute;
+    top: 8px;
     left: 8px;
+    cursor: pointer;
 }
 
 iframe {
     width: 100%;
     height: 90%;
     position: absolute;
-    top: 5%;
+    top: 5vh;
 }
 
 .modal-overlay.active {
