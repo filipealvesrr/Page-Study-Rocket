@@ -16,3 +16,11 @@ closeModal.addEventListener('click', function () {
 
 });
 
+const maximizeModal = modalOverlay.querySelector('.maximize-modal');
+maximizeModal.addEventListener('click', function () {
+    if(modalOverlay.querySelector('.modal').classList.contains('fullscreen')) {
+        modalOverlay.querySelector('.modal').classList.remove('fullscreen');
+    } else {
+        modalOverlay.querySelector('.modal').classList.add('fullscreen');
+    }
+})
